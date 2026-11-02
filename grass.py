@@ -2,7 +2,7 @@ from pico2d import load_image
 
 
 class Grass:
-    def __init__(self):
+    def __init__(self, x, y):
         self.image = load_image('grass.png')
 
     def draw(self):
